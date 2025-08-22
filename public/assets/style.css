@@ -1,0 +1,47 @@
+/*.focus-success:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+.focus-danger:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+}
+.focus-warning:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+}
+
+.close-btn {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.list-group-item:hover .close-btn {
+  position: initial;
+  visibility: visible;
+  opacity: 1;
+}
+*/
+ .edit-form {
+      animation: fadeIn 0.3s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .task-actions button {
+      border: none !important;
+    }
+    .task-actions .btn-edit {
+      color: #0d6efd;
+    }
+    .task-actions .btn-delete {
+      color: #dc3545;
+    }
+    .task-actions .btn-edit:hover {
+      color: #084298;
+    }
+    .task-actions .btn-delete:hover {
+      color: #a71d2a;
+    }
