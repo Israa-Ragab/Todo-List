@@ -40,5 +40,32 @@
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/YourUsername/laravel-todo-list.git
+git clone https://github.com/Israa-Ragab/Todo-List.git
 cd laravel-todo-list
+
+---
+
+##2️⃣ Install dependencies
+composer install
+npm install && npm run dev
+
+---
+
+3️⃣ Create .env file
+cp .env.example .env
+
+Then update your database settings and run:
+php artisan key:generate
+
+---
+
+4️⃣ Run migrations
+php artisan migrate
+
+
+---
+
+5️⃣ Serve the app
+php artisan serve
+
+
